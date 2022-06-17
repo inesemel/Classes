@@ -1,0 +1,29 @@
+package sampleclass.produktSamples;
+
+public class Electronic extends Product {
+    private Double voltage;
+    private String screenSize;
+    public Electronic(String name, Integer price, int quantity, Double voltage, String screenSize) {
+        super(name, price, quantity);
+        this.voltage = voltage;
+        this.screenSize = screenSize;
+
+    }
+
+    public Double getVoltage() {
+        return voltage;
+    }
+
+    //encapsulation
+    public String getScreenSize() {
+        return screenSize;
+    }
+    @Override
+    public String toString() {
+        return  super.toString() +
+                ", " +
+                "voltage=" + voltage +
+                ", screenSize=" + screenSize
+                ;
+    }
+}
