@@ -33,6 +33,10 @@ public class Product {
         System.out.println("Product created with all values");
     }
 
+    public String getDiscount() {
+        return "discount for a product will be " + discount;
+    }
+
     @Override
     public String toString() {
         return "name='" + name + '\'' +

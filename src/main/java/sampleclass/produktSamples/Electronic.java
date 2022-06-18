@@ -18,6 +18,12 @@ public class Electronic extends Product {
     public String getScreenSize() {
         return screenSize;
     }
+
+    @Override
+    public String getDiscount() {
+        return "discount for this electronic will be " + (price / 10);
+    }
+
     @Override
     public String toString() {
         return  super.toString() +

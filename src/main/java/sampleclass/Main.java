@@ -27,7 +27,27 @@ public class Main {
 
         Food food = new Food("Chocolate", 23, 45, 10d, 2f, new Date());
         System.out.println(food);
+
+        System.out.println(food.getDiscount());
+        System.out.println(television.getDiscount());
+        System.out.println(laptop.getDiscount());
+        System.out.println(rice.getDiscount());
+        System.out.println(bread.getDiscount());
         // OBJECT ORIENTED PROGRAMMING
+
+        /*
+        * Animals
+            * Birds
+                *Eagle
+                * Chicken
+                    * Hen
+                    * Chick
+            *Reptiles
+                * Snakes
+        *
+        * */
+
+
     }
 
 }

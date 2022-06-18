@@ -11,6 +11,11 @@ public class Food extends Product{
     }
 
     @Override
+    public String getDiscount() {
+        return "discount for this food will be " + (price/100);
+    }
+
+    @Override
     public String toString() {
         return super.toString() + ", " +
                 "expiryDate=" + expiryDate;
